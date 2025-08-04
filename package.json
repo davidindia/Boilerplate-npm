@@ -3,10 +3,14 @@
 	"version": "1.2.0",
 	"author": "Deven Patel",
 	"description": "A project that does something awesome",
-	"keywords": [ "descriptive", "related", "words", "freecodecamp" ],
+	"keywords": [
+		"descriptive",
+		"related",
+		"words",
+		"freecodecamp"
+	],
 	"license": "MIT",
 	"dependencies": {
-		"@freecodecamp/example": "^1.2.13",
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
@@ -16,5 +20,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	},
+	"devDependencies": {
+		"eslint": "^9.31.0"
 	}
 }
